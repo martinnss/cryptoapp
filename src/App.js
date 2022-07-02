@@ -33,7 +33,6 @@ const App = () => {
                     </Switch>
                 </div>
             </Layout>
-        </div>
         <div className='footer'>
             <Typography.Title level={5} style={{color:'white',textAlign:'center'}}>
                 CryptoDash <br />
@@ -42,61 +41,13 @@ const App = () => {
             <Space>
                 <Link to="/">Home</Link>
                 <Link to='/exchenges'>Exchenges</Link>
-                <Link to='/news
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                '>News</Link>
+                <Link to='/news'>News</Link>
             </Space>
         </div>
+        </div>
+
     </div>
-  )
+)
 }
 
 export default App
