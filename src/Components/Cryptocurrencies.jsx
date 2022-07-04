@@ -7,7 +7,7 @@ import { useGetCryptosQuery } from '../services/cryptoApi';
 
 
 const Cryptocurrencies = () => {
-  
+  const count="prueba"
   const {data: cryptosList, isFetching} = useGetCryptosQuery();
   const [cryptos, setCryptos] = useState(cryptosList?.data?.coins)
 
